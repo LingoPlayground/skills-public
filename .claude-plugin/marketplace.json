@@ -1,0 +1,22 @@
+{
+  "name": "lp-skills-public",
+  "owner": {
+    "name": "LingoPlayground",
+    "url": "https://github.com/LingoPlayground"
+  },
+  "metadata": {
+    "description": "LingoPlayground 公开 Claude Code plugins marketplace",
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "session-priority",
+      "source": "./plugins/session-priority",
+      "description": "通过新会话 Hook 和配套技能管理会话优先级与暂存标记",
+      "version": "0.2.1",
+      "category": "developer-tools",
+      "tags": ["session", "priority", "parking", "title", "hook", "skill"]
+    }
+  ]
+}

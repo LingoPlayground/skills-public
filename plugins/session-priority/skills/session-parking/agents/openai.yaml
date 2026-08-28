@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session Parking"
+  short_description: "切换当前会话名称中的 PARKED 暂存状态，并保留优先级和原标题"
+  default_prompt: "使用 $session-parking 切换当前会话的暂存状态。"

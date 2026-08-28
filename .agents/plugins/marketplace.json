@@ -1,0 +1,20 @@
+{
+  "name": "lp-skills-public",
+  "interface": {
+    "displayName": "LingoPlayground Public Skills"
+  },
+  "plugins": [
+    {
+      "name": "session-priority",
+      "source": {
+        "source": "local",
+        "path": "./plugins/session-priority"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
