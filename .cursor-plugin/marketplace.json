@@ -1,0 +1,17 @@
+{
+  "name": "lp-skills-public",
+  "owner": {
+    "name": "LingoPlayground"
+  },
+  "metadata": {
+    "description": "LingoPlayground 公开 Cursor plugins marketplace",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "session-priority",
+      "source": "session-priority",
+      "category": "developer-tools"
+    }
+  ]
+}

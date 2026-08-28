@@ -1,0 +1,12 @@
+{
+  "name": "session-priority",
+  "version": "0.2.1",
+  "description": "通过新会话 Hook 和配套技能管理会话优先级与暂存标记",
+  "author": {
+    "name": "LingoPlayground"
+  },
+  "repository": "https://github.com/LingoPlayground/skills-public",
+  "license": "MIT",
+  "keywords": ["session", "priority", "parking", "title", "hook", "skill"],
+  "hooks": "./hooks/hooks.json"
+}
