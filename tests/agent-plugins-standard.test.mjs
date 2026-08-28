@@ -206,6 +206,8 @@ describe("Agent Plugins 1.0.0 package contract", () => {
   test("the public marketplace stays focused and licensed", () => {
     assert.deepEqual(marketplacePlugins().map((plugin) => plugin.name), ["session-priority"]);
     assert.ok(fs.existsSync(path.join(repoRoot, "LICENSE")));
+    assert.ok(fs.statSync(path.join(repoRoot, "skills")).isDirectory());
+    assert.ok(fs.existsSync(path.join(repoRoot, "skills", "README.md")));
 
     const pluginRoot = path.join(repoRoot, "plugins", "session-priority");
     for (const manifestPath of nativeManifestPaths) {
