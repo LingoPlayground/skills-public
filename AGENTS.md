@@ -6,7 +6,7 @@
 
 本仓库是团队私有技能仓库的公开姊妹仓库，只承载适合公开分发的插件与技能。不得加入内部方法论、私有仓库路径、凭据、个人信息或团队专属运行上下文。
 
-仓库采用双轨结构：`plugins/` 承载可通过 marketplace 安装的组件，`skills/` 承载自包含、无需 plugin 包装的 standalone skill。当前只发布 `plugins/session-priority/`，`skills/` 暂时保留规范和空目录占位。
+仓库采用双轨结构：`plugins/` 承载可通过 marketplace 安装的组件，`skills/` 承载自包含、无需 plugin 包装的 standalone skill。当前提供 `plugins/session-priority/` 和 `skills/git-for-everyone/`。
 
 ## 结构约束
 

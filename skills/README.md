@@ -1,6 +1,8 @@
 # Standalone Skills
 
-存放 **standalone skill**——不属于成体系工作流的自包含单点工具。当前目录只保留规范，尚未发布具体 skill。
+存放 **standalone skill**——不属于成体系工作流的自包含单点工具。
+
+- [git-for-everyone](git-for-everyone/SKILL.md)：由智能体代办本地版本管理与按需启用的 GitHub 协作，面向非技术用户；纯本地使用不需要账号或组织成员身份。安装和触发说明见[仓库说明](../README.md#standalone-skills)。
 
 ## 何时放这里 vs 放进 plugin
 
