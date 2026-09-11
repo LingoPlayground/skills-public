@@ -1,0 +1,6 @@
+interface:
+  display_name: "人人可用的版本管理"
+  short_description: "替非技术用户完成本地版本保存与恢复，按需推进远端共享和协作"
+  default_prompt: "请使用 $git-for-everyone 帮我管理当前文件的版本，由你执行命令；先按本地需求处理，需要共享时再让我确认。"
+policy:
+  allow_implicit_invocation: true
