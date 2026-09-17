@@ -1,6 +1,6 @@
 {
   "name": "session-priority",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "通过新会话 Hook 和配套技能管理会话优先级与暂存标记",
   "author": {
     "name": "LingoPlayground"

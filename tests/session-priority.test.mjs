@@ -61,7 +61,9 @@ describe("session-priority hook", () => {
       assert.equal(manifest.version, claude.version);
       assert.equal(manifest.description, claude.description);
     }
-    assert.equal(claude.hooks, "./hooks/hooks.json");
+    // Claude Code 自动加载标准 hooks/hooks.json，清单再声明会被判为重复加载。
+    assert.equal(claude.hooks, undefined);
+    assert.ok(fs.existsSync(path.join(pluginRoot, "hooks", "hooks.json")));
     assert.equal(codex.hooks, "./hooks/hooks.json");
     assert.equal(cursor.hooks, "./hooks/cursor-hooks.json");
 
