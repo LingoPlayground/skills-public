@@ -71,7 +71,7 @@ ln -s /path/to/skills-public/plugins/session-priority ~/.cursor/plugins/local/se
 
 ## 文件分层
 
-- `.claude-plugin/plugin.json`、`.codex-plugin/plugin.json`：Claude Code 与 Codex 宿主清单，共用 `hooks/hooks.json`。
+- `.claude-plugin/plugin.json`、`.codex-plugin/plugin.json`：Claude Code 与 Codex 宿主清单，共用 `hooks/hooks.json`。Codex 清单显式声明该文件；Claude Code 自动加载标准位置，清单不再声明，否则会报重复加载。
 - `.cursor-plugin/plugin.json`：Cursor 宿主清单，使用原生 `hooks/cursor-hooks.json`。
 - `scripts/session-priority.mjs`：三端共用的提醒内容与输出协议适配。
 - `skills/set-session-priority/`：主动设置或修改会话优先级。
