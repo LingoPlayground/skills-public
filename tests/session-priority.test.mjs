@@ -46,6 +46,7 @@ function assertReminderContract(context) {
   assert.match(context, /替换.*优先级前缀|优先级前缀.*替换/s);
   assert.match(context, /自动化|定时任务/);
   assert.match(context, /无人值守/);
+  assert.match(context, /side chat|侧边对话/i);
   assert.match(context, /不提问|禁止.*提问/);
 }
 

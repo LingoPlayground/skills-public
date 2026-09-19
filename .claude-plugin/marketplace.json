@@ -14,7 +14,7 @@
       "name": "session-priority",
       "source": "./plugins/session-priority",
       "description": "通过新会话 Hook 和配套技能管理会话优先级与暂存标记",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "category": "developer-tools",
       "tags": ["session", "priority", "parking", "title", "hook", "skill"]
     }
